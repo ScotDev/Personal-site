@@ -7,7 +7,7 @@ export default function Showcase() {
         <section className="showcase">
             <div className="showcase-item">
                 <aside className="profile">
-                    <img src={profileImg} alt="Profile photo"></img>
+                    <img src={profileImg} alt="Profile"></img>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>

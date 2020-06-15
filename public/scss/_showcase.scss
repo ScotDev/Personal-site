@@ -46,24 +46,5 @@ $primary-gradient: #fd4d8c
       font-size: 1.5rem;
       font-weight: 500;
     }
-
-    .btn-group {
-      display: flex;
-      flex-direction: row;
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
-      .btn-primary {
-        @extend .btn;
-        background: $primary-gradient;
-        font-weight: 700;
-      }
-      .btn-secondary {
-        @extend .btn;
-        background: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
-        font-weight: 700;
-      }
-    }
   }
 }

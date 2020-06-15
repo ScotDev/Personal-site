@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "img": "brc",
+    "title": "BRCODIFY",
+    "description": "A barcode generation tool",
+    "url": "https://www.brcodify.com/",
+    "link_alias": "brcodify.com",
+    "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
+    "tech": ["html5", "css3", "js", "react"]
+  },
+  {
+    "id": "2",
+    "img": "buc",
+    "title": "Best Used Cars",
+    "description": "A showcase site for a car dealership",
+    "url": "https://best-used-cars.now.sh/",
+    "link_alias": "best-used-cars.now.sh",
+    "github_link": "https://github.com/ScotDev/best-used-cars",
+    "tech": ["html5", "css3", "react"]
+  },
+  {
+    "id": "3",
+    "img": "xyz",
+    "title": "theweather.xyz",
+    "description": "A React weather SPA using openweathermap.orgs's API",
+    "url": "https://www.theweather.xyz/",
+    "link_alias": "theweather.xyz",
+    "github_link": "https://github.com/ScotDev/simple-react-weather",
+    "tech": ["html5", "css3", "js", "react"]
+  }
+]
