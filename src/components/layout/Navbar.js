@@ -5,11 +5,11 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="nav-title">ScotDev</div>
             <ul className="nav-links">
-                <li>Projects</li>
-                <li>About me</li>
-                <li>GitHub <i class="lab la-github"></i></li>
-                <li><a href="mailto:callum.git@outlook.com"><i className="las la-envelope"></i></a></li>
-                <li>Contact</li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="https://github.com/ScotDev" target="_blank">GitHub <i class="lab la-github"></i></a></li>
+                <li><a href="mailto:callum.git@outlook.com" target="_blank"><i className="las la-envelope"></i></a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     )

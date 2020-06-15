@@ -2,14 +2,18 @@ $light-text: #dcdcdd;
 $primary-bg: #46494c;
 $primary-accent: #1985a1;
 
-$primary-gradient: #fd4d8c
-  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+$secondary-light-text: #e6e9f0;
+
+// $snow-gradient: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+$snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 
 .portfolio {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
+  // grid-auto-rows: minmax();
   padding: 0 5rem;
+  margin: 0 0 2rem 0;
 
   .portfolio-item {
     .card {
@@ -17,40 +21,36 @@ $primary-gradient: #fd4d8c
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
-      background-color: #fff;
+      background-image: $snow-gradient;
       color: $light-text;
       height: auto;
       border-radius: 6px;
       width: 100%;
       overflow: hidden;
-      margin: 0 0 5rem 0;
-      padding: 0 0 1rem 0;
-      border: 1px red solid;
 
       .card-img-top {
         height: 400px;
         object-fit: cover;
         object-position: top;
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
         width: 100%;
         opacity: 0.95;
-        border-bottom: 2px solid $primary-bg;
       }
 
       .card-title {
         color: $primary-bg;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        font-weight: 500;
         text-align: center;
-        margin: 0.5rem 1.5rem 1rem 1.5rem;
+        margin: 0.5rem 1.5rem 0rem 1.5rem;
         padding: 0.3rem;
       }
 
       .card-text {
         color: $primary-bg;
         text-align: center;
-        margin: 0.8rem 1rem;
+        font-size: 1.4rem;
+        margin: 0.8rem 1rem 1.5rem 1rem;
+        padding: 0 1rem;
         overflow: hidden;
         line-height: 1.5;
       }
@@ -63,11 +63,35 @@ $primary-gradient: #fd4d8c
         }
       }
 
-      .card-text-stack {
+      .card-tags {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        margin: 1.5rem 0;
+        padding: 0 2rem;
+
         p {
-          padding: 0 0.5rem 0 0;
+          margin: 0 0.5rem 0.7rem 0;
           color: $primary-bg;
+          font-weight: 500;
+          border: none;
+          color: $light-text;
+          background-color: $primary-bg;
+          font-size: 1.25rem;
+          outline: none;
+          border-radius: 30px;
+          vertical-align: middle;
+          padding: 0.5rem 0.75rem;
+          // max-width: 20%;
+          min-width: fit-content;
+          text-align: center;
+
+          i {
+            vertical-align: text-bottom;
+            font-size: 1.4rem;
+          }
         }
       }
     }

@@ -12,6 +12,7 @@ function App() {
         <Navbar></Navbar>
         <div className="content">
           <Showcase></Showcase>
+          <div className="section-heading">Projects</div>
           <Portfolio></Portfolio>
         </div>
       </div>

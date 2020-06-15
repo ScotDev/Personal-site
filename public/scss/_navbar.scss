@@ -10,9 +10,11 @@ $primary-gradient: #fd4d8c
   display: flex;
   flex-direction: row;
   position: sticky;
+  top: 0;
   background: transparent;
+  background: rgba($primary-bg, 0.8);
   color: $light-text;
-  // border-bottom: 4px solid $primary-accent;
+  padding: 0 1rem;
 
   .nav-title {
     padding: 1rem;
@@ -26,20 +28,20 @@ $primary-gradient: #fd4d8c
     align-items: center;
     text-align: center;
     list-style-type: none;
-    margin: 0 2rem 0 0;
+    // margin: 0 2rem 0 0;
 
     li {
       font-size: 1rem;
       margin: 0 1em;
       color: $light-text;
-      font-size: 1.2em;
+      font-size: 1.3rem;
 
       a {
         text-decoration: none;
         color: $light-text;
 
         i {
-          vertical-align: middle;
+          font-size: 1.6rem;
         }
       }
     }

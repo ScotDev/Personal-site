@@ -3,17 +3,17 @@
     "id": "1",
     "img": "brc",
     "title": "BRCODIFY",
-    "description": "A barcode generation tool",
+    "description": "A React SPA tool for generating barcode in various formats",
     "url": "https://www.brcodify.com/",
     "link_alias": "brcodify.com",
     "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
-    "tech": ["html5", "css3", "js", "react"]
+    "tech": ["html5", "css3", "js", "react", "npm"]
   },
   {
     "id": "2",
     "img": "buc",
     "title": "Best Used Cars",
-    "description": "A showcase site for a car dealership",
+    "description": "A responsive example site for a fake local used car dealership",
     "url": "https://best-used-cars.now.sh/",
     "link_alias": "best-used-cars.now.sh",
     "github_link": "https://github.com/ScotDev/best-used-cars",
@@ -23,10 +23,40 @@
     "id": "3",
     "img": "xyz",
     "title": "theweather.xyz",
-    "description": "A React weather SPA using openweathermap.orgs's API",
+    "description": "A React weather SPA showing the current weather openweathermap.orgs's API",
     "url": "https://www.theweather.xyz/",
     "link_alias": "theweather.xyz",
     "github_link": "https://github.com/ScotDev/simple-react-weather",
-    "tech": ["html5", "css3", "js", "react"]
+    "tech": ["html5", "css3", "js", "react", "npm"]
+  },
+  {
+    "id": "4",
+    "img": "app_floramate",
+    "title": "floramate",
+    "description": "A WIP full-stack React app to help you select wildlife-friendly plants suited to your area",
+    "url": "https://www.floramate.cc/",
+    "link_alias": "floramate.cc",
+    "github_link": "https://github.com/ScotDev/app.floramate",
+    "tech": ["html5", "css3", "js", "react", "npm", "node-js", "express"]
+  },
+  {
+    "id": "5",
+    "img": "candle_kids",
+    "title": "CandleCon Countdown",
+    "description": "A simple website counting down to a fake convention in Amsterdam",
+    "url": "https://www.candle-kids.com/",
+    "link_alias": "candle-kids.com",
+    "github_link": "https://github.com/ScotDev/candle-kids",
+    "tech": ["html5", "css3", "js"]
+  },
+  {
+    "id": "6",
+    "img": "mt",
+    "title": "MTTraducciones",
+    "description": "A Bootstrap-based static portfolio/contact site for a translation service",
+    "url": "https://www.mttraducciones.com/",
+    "link_alias": "www.mttraducciones.com",
+    "github_link": "https://github.com/ScotDev/bootstrap-sandbox",
+    "tech": ["html5", "css3", "bootstrap"]
   }
 ]

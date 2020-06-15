@@ -11,11 +11,11 @@ export default function Portfolio() {
                 <div className="card-title">{item.title}</div>
                 <div className="card-text">{item.description}</div>
                 <div className="btn-group">
-                    <a className="btn btn-primary" href={item.url}>View live <i class="las la-external-link-alt"></i></a>
-                    <a className="btn btn-secondary" href={item.github_link}>GitHub <i class="lab la-github"></i></a>
+                    <a className="btn btn-primary" href={item.url} target="_blank">View live <i class="las la-external-link-alt"></i></a>
+                    <a className="btn btn-secondary" href={item.github_link} target="_blank">GitHub <i class="lab la-github"></i></a>
                 </div>
-                <div className="card-text-stack">{item.tech.map(tech => {
-                    return (<i>{tech}</i>)
+                <div className="card-tags">{item.tech.map(tech => {
+                    return (<p>{tech} <i className={`lab la-${tech}`}></i></p>)
                 })}</div>
             </div>
         </div>)
