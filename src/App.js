@@ -4,6 +4,7 @@ import './styles.min.css';
 import Navbar from './components/layout/Navbar';
 import Showcase from './components/layout/Showcase';
 import Portfolio from './components/layout/Portfolio';
+import Contact from './components/layout/Contact';
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
         <Navbar></Navbar>
         <div className="content">
           <Showcase></Showcase>
-          <div className="section-heading">Projects</div>
+          <div id="portfolio" className="section-heading">Projects</div>
           <Portfolio></Portfolio>
+          <div id="contact" className="section-heading">Contact</div>
+          <Contact></Contact>
         </div>
       </div>
     </div>

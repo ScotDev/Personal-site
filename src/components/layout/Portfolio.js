@@ -21,7 +21,7 @@ export default function Portfolio() {
         </div>)
     })
     return (
-        <section id="portfolio" className="portfolio">
+        <section className="portfolio">
             {items}
         </section>
     )
