@@ -1,0 +1,47 @@
+$light-text: #dcdcdd;
+$primary-bg: #46494c;
+// $primary-accent: #d100d1;
+$primary-accent: #1985a1;
+
+$primary-gradient: #fd4d8c
+  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  background: transparent;
+  color: $light-text;
+  // border-bottom: 4px solid $primary-accent;
+
+  .nav-title {
+    padding: 1rem;
+    font-size: 2em;
+    margin: 0 auto 0 0;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 2rem 0 0;
+
+    li {
+      font-size: 1rem;
+      margin: 0 1em;
+      color: $light-text;
+      font-size: 1.2em;
+
+      a {
+        text-decoration: none;
+        color: $light-text;
+
+        i {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

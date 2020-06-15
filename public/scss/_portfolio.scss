@@ -1,0 +1,50 @@
+$light-text: #dcdcdd;
+$primary-bg: #46494c;
+$primary-accent: #1985a1;
+
+$primary-gradient: #fd4d8c
+  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+
+.portfolio {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 0 7.5rem;
+
+  .portfolio-item {
+    .card {
+      background-color: #fff;
+      color: $light-text;
+      height: auto;
+      border-radius: 6px;
+      border: 2px transparent solid;
+      width: 100%;
+      overflow: hidden;
+
+      .card-img-top {
+        height: 350px;
+        object-fit: cover;
+        width: 100%;
+        // position: relative;
+      }
+
+      .card-title {
+        color: $primary-bg;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0.5rem 1.5rem 1rem 1.5rem;
+        padding-bottom: 0.3rem;
+        // text-transform: capitalize;
+      }
+
+      .card-text {
+        color: $primary-bg;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0.8rem 1rem;
+        overflow: hidden;
+        // line-height: 1.5;
+      }
+    }
+  }
+}
