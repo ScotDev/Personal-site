@@ -42,12 +42,12 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
     li:first-child {
       border-top: 0;
-      border-top-right-radius: 0;
-      border-top-left-radius: 0;
     }
     li:last-child {
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
+      border-bottom: 3px solid;
+      border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+      border-image-slice: 1;
+      border-width: 3px;
     }
 
     li {
@@ -101,9 +101,16 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
         vertical-align: middle;
         i {
           font-size: 1.3rem;
-          vertical-align: middle;
+          vertical-align: text-bottom;
         }
       }
+    }
+  }
+
+  #download {
+    margin: 1rem 0 0 0;
+    i {
+      font-size: 1.4rem;
     }
   }
 }

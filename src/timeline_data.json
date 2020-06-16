@@ -25,85 +25,55 @@
   },
   {
     "id": "5",
-    "title": "Completed Udemy Course",
-    "text": "Automate the Boring Stuff with Python",
+    "title": "Started learning to code",
+    "text": "Signed up to freeCodeCamp and following Udemy courses",
     "date": "Sep 2018"
   },
   {
     "id": "6",
-    "title": "Completed Udemy Course",
-    "text": "Python Django Dev to Deployment",
-    "date": "Sep 2018"
-  },
-  {
-    "id": "7",
-    "title": "Completed Udemy Course",
-    "text": "Bootstrap 4 From Scratch with 5 Projects",
-    "date": "Sep 2019"
-  },
-  {
-    "id": "8",
-    "title": "Completed Udemy Course",
-    "text": "The Web Developer Bootcamp",
-    "date": "Dec 2019"
-  },
-  {
-    "id": "9",
     "title": "Launched first public website",
     "text": "A redesigned business site for a friend's translation service using Bootstrap",
     "date": "Nov 2019",
     "url": "https://www.mttraducciones.com/"
   },
   {
-    "id": "10",
-    "title": "Completed Udemy Course",
-    "text": "Node.js, Express & Mongo DB Dev to Deployment",
-    "date": "Nov 2019"
-  },
-  {
-    "id": "11",
+    "id": "7",
     "title": "Moved to Vegware IT department",
     "text": "New position as IT Support Assistant",
     "date": "Jan 2020"
   },
   {
-    "id": "12",
+    "id": "8",
     "title": "Built BRCODIFY",
     "text": "Originally using vanilla JS, rebuilt using React",
     "date": "March 2020",
     "url": "https://www.brcodify.com/"
   },
   {
-    "id": "13",
-    "title": "Completed Udemy Course",
-    "text": "Node.js API Masterclass With Express and MongoDB",
-    "date": "May 2020"
-  },
-  {
-    "id": "14",
+    "id": "9",
     "title": "Started learning React",
-    "text": "Launched flormate.cc as a full stack learning project with Node.js and Express.js",
+    "text": "Launched floramate as a full stack learning project with Node.js and Express.js",
     "date": "May 2020",
     "url": "https://www.floramate.cc/"
   },
   {
-    "id": "15",
+    "id": "10",
     "title": "Launched theweather.xyz",
     "text": "Learned about class-based state and API consumption in React",
     "date": "May 2020",
     "url": "https://www.theweather.xyz/"
   },
   {
-    "id": "16",
+    "id": "11",
     "title": "Built Best Used Cars",
     "text": "Improved frontend skills, specifically CSS grid and flexbox",
     "date": "June 2020",
     "url": "https://best-used-cars.now.sh/"
   },
   {
-    "id": "78",
+    "id": "12",
     "title": "Created this website",
-    "text": "Practicing React, CSS and Sass",
-    "date": "June 2020"
+    "text": "Practicing React, JS, CSS and Sass",
+    "date": "14th June 2020"
   }
 ]

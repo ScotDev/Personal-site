@@ -24,7 +24,8 @@ export default function Timeline() {
             <ul className="timeline-list">
                 {items}
             </ul>
-            {/* <a href="#portfolio" className="btn btn-secondary">Download full CV <i class="las la-download"></i></a> */}
+            <a className="btn btn-secondary" id="download" href="#" alt="Download CV" target="_blank" rel="noopener noreferrer">Download full CV <i class="las la-download"></i></a>
         </div>
+
     )
 }
