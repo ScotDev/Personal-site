@@ -14,9 +14,8 @@ export default function Timeline() {
                 <h2 className="timeline-title">{item.title}</h2>
                 <p className="timeline-text">{item.text}</p>
                 <p className="timeline-date">{item.date}</p>
-
+                {item.url && <a href={item.url} className="timeline-link btn btn-primary" target="_blank" rel="noopener noreferrer">View live <i class="las la-external-link-alt"></i></a>}
             </li>
-
         )
     })
 

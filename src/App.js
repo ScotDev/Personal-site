@@ -16,9 +16,10 @@ function App() {
           <Showcase></Showcase>
           <div id="portfolio" className="section-heading">Projects</div>
           <Portfolio></Portfolio>
+          <div id="Timeline" className="section-heading">Timeline</div>
+          <Timeline></Timeline>
           <div id="contact" className="section-heading">Contact</div>
           <Contact></Contact>
-          <Timeline></Timeline>
         </div>
       </div>
     </div>

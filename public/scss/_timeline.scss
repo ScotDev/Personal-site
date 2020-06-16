@@ -89,6 +89,11 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
         font-size: 0.9rem;
         padding: 0 1rem;
       }
+      .timeline-link {
+        font-size: 0.9rem;
+        margin: 0 1rem;
+        color: $light-text;
+      }
     }
   }
 }
