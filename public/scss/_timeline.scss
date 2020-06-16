@@ -13,6 +13,7 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 4rem 0;
   .timeline-list {
     list-style-type: none;
 
@@ -30,6 +31,7 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
     li:nth-child(odd) {
       border-right: 3px solid;
       padding-left: 0;
+      text-align: right;
 
       &:before {
         left: 100.5%;
@@ -78,21 +80,29 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
       .timeline-title {
         font-weight: 500;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 0 1rem;
       }
       .timeline-text {
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding: 0 1rem;
       }
       .timeline-date {
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 0 1rem;
+        margin: 0 0 1.5rem 0;
+      }
+      .btn {
+        padding: 0.7rem 1.5rem;
       }
       .timeline-link {
-        font-size: 0.9rem;
-        margin: 0 1rem;
-        color: $light-text;
+        font-size: 1rem;
+        color: #fff;
+        vertical-align: middle;
+        i {
+          font-size: 1.3rem;
+          vertical-align: middle;
+        }
       }
     }
   }

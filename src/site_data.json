@@ -7,7 +7,7 @@
     "url": "https://www.brcodify.com/",
     "link_alias": "brcodify.com",
     "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
-    "tech": ["html5", "css3", "js", "react", "npm"]
+    "tech": ["html5", "css3", "js", "react", "sass", "npm"]
   },
   {
     "id": "2",
@@ -17,7 +17,7 @@
     "url": "https://best-used-cars.now.sh/",
     "link_alias": "best-used-cars.now.sh",
     "github_link": "https://github.com/ScotDev/best-used-cars",
-    "tech": ["html5", "css3", "react"]
+    "tech": ["html5", "css3", "react", "sass"]
   },
   {
     "id": "3",
@@ -27,7 +27,7 @@
     "url": "https://www.theweather.xyz/",
     "link_alias": "theweather.xyz",
     "github_link": "https://github.com/ScotDev/simple-react-weather",
-    "tech": ["html5", "css3", "js", "react", "npm"]
+    "tech": ["html5", "css3", "js", "react", "sass", "npm"]
   },
   {
     "id": "4",
@@ -37,7 +37,16 @@
     "url": "https://www.floramate.cc/",
     "link_alias": "floramate.cc",
     "github_link": "https://github.com/ScotDev/app.floramate",
-    "tech": ["html5", "css3", "js", "react", "npm", "node-js", "express"]
+    "tech": [
+      "html5",
+      "css3",
+      "js",
+      "react",
+      "sass",
+      "npm",
+      "node-js",
+      "express"
+    ]
   },
   {
     "id": "5",

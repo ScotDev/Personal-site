@@ -12,7 +12,7 @@ $snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 5rem;
-  margin: 0 0 2rem 0;
+  margin: 0 0 4rem 0;
 
   .portfolio-item {
     .card {
@@ -71,6 +71,13 @@ $snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
         }
       }
 
+      .btn:hover,
+      .btn:focus {
+        box-shadow: 1px 1px 10px $primary-bg;
+        -moz-box-shadow: 1px 1px 10px $primary-bg;
+        -webkit-box-shadow: 1px 1px 10px $primary-bg;
+      }
+
       .card-tags {
         display: flex;
         justify-content: center;
@@ -90,7 +97,7 @@ $snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
           outline: none;
           border-radius: 30px;
           vertical-align: middle;
-          padding: 0.6rem 0.8rem;
+          padding: 0.5rem 0.8rem;
           // max-width: 20%;
           min-width: fit-content;
           text-align: center;
