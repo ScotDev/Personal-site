@@ -15,6 +15,7 @@ $primary-gradient: #fd4d8c
   background: rgba($primary-bg, 0.8);
   color: $light-text;
   padding: 0 1rem;
+  height: 80px;
 
   .nav-title {
     padding: 1rem;
@@ -55,6 +56,34 @@ $primary-gradient: #fd4d8c
         border-bottom: 2px #fff solid;
         cursor: pointer;
       }
+    }
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 58px;
+    width: 300px;
+    transform: translateX(110%);
+    padding: 1rem;
+    background: $primary-gradient;
+
+    border-radius: 6px;
+    overflow: hidden;
+
+    ul {
+      list-style-type: none;
+      color: $light-text;
+      li {
+        color: $light-text;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    .dropdown {
+      transform: translateX(45%);
     }
   }
 }

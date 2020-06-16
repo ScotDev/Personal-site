@@ -5,7 +5,7 @@ import data from '../../site_data.json';
 export default function Portfolio() {
 
     const items = data.map(item => {
-        return (<div className="portfolio-item">
+        return (<div className="portfolio-item" key={item.id}>
             <div className="card">
                 <img className="card-img-top" src={require(`../../assets/img/${item.img}.png`)} alt="Portfolio project"></img>
                 <div className="card-title">{item.title}</div>

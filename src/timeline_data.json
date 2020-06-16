@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Graduated Heriot-Watt University",
+    "text": "Undergraduate MA in Translation and Interpreting (German & Spanish)",
+    "date": "May 2017",
+    "url": "",
+    "link_alias": ""
+  },
+  {
+    "id": "2",
+    "title": "Moved to Barcelona",
+    "text": "Internship at translation agency",
+    "date": "Aug 2018",
+    "url": "",
+    "link_alias": ""
+  },
+  {
+    "id": "3",
+    "title": "Became freelancer",
+    "text": "Started gathering clients as a freelance translator and proofreader",
+    "date": "Oct 2018",
+    "url": "",
+    "link_alias": ""
+  },
+  {
+    "id": "4",
+    "title": "Began learning basic web development",
+    "text": "freeCodeCamp and Udemy courses",
+    "date": "May 2019",
+    "url": "",
+    "link_alias": ""
+  },
+  {
+    "id": "5",
+    "title": "Launched first website",
+    "text": "A redesigned business site",
+    "date": "Jan 2019",
+    "url": "https://www.mttraducciones.com/",
+    "link_alias": "MTTraducciones"
+  }
+]
