@@ -18,7 +18,7 @@ export default function Timeline() {
     return (
         <div className="timeline">
             {items}
-            <a className="btn btn-secondary">Download full CV <i class="las la-download"></i></a>
+            <a href="#portfolio" className="btn btn-secondary">Download full CV <i class="las la-download"></i></a>
         </div>
     )
 }
