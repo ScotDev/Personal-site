@@ -70,7 +70,8 @@
     "id": "12",
     "title": "Built BRCODIFY",
     "text": "Originally using vanilla JS, rebuilt using React",
-    "date": "March 2020"
+    "date": "March 2020",
+    "url": "https://www.brcodify.com/"
   },
   {
     "id": "13",
