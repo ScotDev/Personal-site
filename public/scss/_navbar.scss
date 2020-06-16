@@ -20,6 +20,11 @@ $primary-gradient: #fd4d8c
     padding: 1rem;
     font-size: 2em;
     margin: 0 auto 0 0;
+
+    a:hover,
+    a:focus {
+      cursor: pointer;
+    }
   }
 
   .nav-links {
@@ -28,7 +33,6 @@ $primary-gradient: #fd4d8c
     align-items: center;
     text-align: center;
     list-style-type: none;
-    // margin: 0 2rem 0 0;
 
     li {
       font-size: 1rem;
@@ -39,10 +43,17 @@ $primary-gradient: #fd4d8c
       a {
         text-decoration: none;
         color: $light-text;
+        padding: 0 0 0.2rem 0;
 
         i {
           font-size: 1.6rem;
         }
+      }
+
+      a:hover,
+      a:focus {
+        border-bottom: 2px #fff solid;
+        cursor: pointer;
       }
     }
   }

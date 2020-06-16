@@ -4,7 +4,7 @@ import profileImg from '../../assets/img/profile.jpg'
 
 export default function Showcase() {
     return (
-        <section className="showcase">
+        <section id="showcase" className="showcase">
             <div className="showcase-item">
                 <aside className="profile">
                     <img src={profileImg} alt="Profile"></img>
