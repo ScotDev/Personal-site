@@ -4,117 +4,91 @@ $primary-accent: #1985a1;
 
 $secondary-light-text: #e6e9f0;
 
-.timeline {
-  position: relative;
-  //   max-width: 1200px;
-  margin: 0 auto 5rem auto;
+$primary-gradient: #fd4d8c
+  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+$secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
-  .btn {
-    i {
-      font-size: 1.3rem;
+.timeline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .timeline-list {
+    list-style-type: none;
+
+    li:nth-child(even) {
+      border-left: 3px solid;
+      padding-right: 0;
+
+      &:before {
+        right: 100.5%;
+        transform: translateY(110%);
+        margin-right: -20px;
+      }
+    }
+
+    li:nth-child(odd) {
+      border-right: 3px solid;
+      padding-left: 0;
+
+      &:before {
+        left: 100.5%;
+        margin-left: -20px;
+        transform: translateY(110%);
+      }
+    }
+
+    li:first-child {
+      border-top: 0;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+    }
+    li:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    li {
+      font-size: 1em;
+      line-height: 1.75em;
+      border-top: 3px solid;
+      border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+      border-image-slice: 1;
+      border-width: 3px;
+      margin: 0;
+      padding: 40px;
+      counter-increment: section;
+      position: relative;
+      color: $light-text;
+
+      &:before {
+        content: counter(section);
+        position: absolute;
+        border-radius: 50%;
+        padding: 10px;
+        height: 1.25em;
+        width: 1.25em;
+        background-color: $light-text;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.25em;
+        color: #34435e;
+        font-size: 1em;
+      }
+
+      .timeline-title {
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+      }
+      .timeline-text {
+        font-size: 1rem;
+        padding: 0 1rem;
+      }
+      .timeline-date {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+      }
     }
   }
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 8px;
-  background-color: $light-text;
-  border-radius: 6px;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-
-/* Container around content */
-.timeline-item {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  max-width: 70%;
-  margin: 0 0 1rem 0;
-}
-
-/* The circles on the timeline */
-.timeline-item::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid $primary-accent;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.timeline-item:nth-child(odd) {
-  left: -43.5%;
-}
-/* Place the timeline-item to the left */
-// .left {
-
-//   //   transform: translateX(-100%);
-// }
-
-/* Place the timeline-item to the right */
-.timeline-item:nth-child(even) {
-  left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.timeline-item:nth-child(odd)::before {
-  content: ' ';
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #fff;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #fff;
-}
-
-/* Add arrows to the right container (pointing left) */
-.timeline-item:nth-child(even)::before {
-  content: ' ';
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #fff;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #fff transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-  left: -16px;
-}
-
-/* The actual content */
-.timeline-content {
-  //   padding: 20px 30px;
-  padding: 0.75rem;
-  background-color: white;
-  //   position: relative;
-  border-radius: 6px;
-}
-
-.timeline-title {
-  font-weight: 500;
-  font-size: 1.3rem;
-}
-.timeline-text {
-  font-size: 1rem;
-}
-.timeline-date {
-  font-size: 0.9rem;
 }

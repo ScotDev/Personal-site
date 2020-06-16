@@ -5,20 +5,27 @@ import data from '../../timeline_data.json';
 
 export default function Timeline() {
 
+
     const items = data.map(item => {
-        return (<div className="timeline-item" key={item.id}>
-            <div className="timeline-content">
+        return (
+
+            <li key={item.id}>
+
                 <h2 className="timeline-title">{item.title}</h2>
                 <p className="timeline-text">{item.text}</p>
                 <p className="timeline-date">{item.date}</p>
-            </div>
-        </div>)
+
+            </li>
+
+        )
     })
 
     return (
         <div className="timeline">
-            {items}
-            <a href="#portfolio" className="btn btn-secondary">Download full CV <i class="las la-download"></i></a>
+            <ul className="timeline-list">
+                {items}
+            </ul>
+            {/* <a href="#portfolio" className="btn btn-secondary">Download full CV <i class="las la-download"></i></a> */}
         </div>
     )
 }
