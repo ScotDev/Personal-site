@@ -16,7 +16,7 @@ export default function Showcase() {
             <div className="showcase-item">
                 <div className="showcase-main">
                     <h1>Hi, I'm Callum Giles</h1>
-                    <h2>A web developer in training</h2>
+                    <h2>Web developer in training</h2>
                     <div className="btn-group">
                         <a className="btn btn-primary" href="#portfolio">Portfolio</a>
                         <a className="btn btn-secondary" href="#contact">Contact me</a>
