@@ -16,7 +16,7 @@ function App() {
           <Showcase></Showcase>
           <div id="portfolio" className="section-heading">Projects</div>
           <Portfolio></Portfolio>
-          <div id="timeline" className="section-heading">Timeline</div>
+          <div id="timeline" className="section-heading">About me</div>
           <Timeline></Timeline>
           <div id="contact" className="section-heading">Contact</div>
           <Contact></Contact>
