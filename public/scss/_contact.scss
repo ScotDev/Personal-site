@@ -16,7 +16,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
   .contact-inner-grid {
     display: grid;
-    grid-template-columns: 37.5% 62.5%;
+    grid-template-columns: 40% 60%;
     border: none;
     outline: none;
 
@@ -151,7 +151,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 // Layout for laptop screens
 @media only screen and (max-width: 1500px) {
   .contact {
-    width: 75%;
+    width: 80%;
     .contact-inner-grid {
       .contact-inner-grid-item {
         .static-contact-info {

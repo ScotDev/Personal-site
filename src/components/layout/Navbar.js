@@ -1,6 +1,5 @@
 import React from 'react'
 
-// import DropdownNav from './DropdownNav';
 
 export default function Navbar() {
     return (
@@ -13,7 +12,6 @@ export default function Navbar() {
                 <li><a href="mailto:callum.git@outlook.com" target="_blank" rel="noopener noreferrer"><i className="las la-envelope"></i></a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            {/* <DropdownNav></DropdownNav> */}
         </nav>
     )
 }
