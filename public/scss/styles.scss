@@ -6,24 +6,12 @@
 @import '_contact';
 @import '_timeline';
 
-$light-text: #dcdcdd;
+$light-text: #e6e9f0;
 $primary-bg: #46494c;
-// $primary-accent: #1985a1;
 $primary-accent: #2fb6ed;
 
-// #2c77e3
-
-$primary-gradient: #fd4d8c
-  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+$primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
-$line-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
-
-$secondary-light-text: #e6e9f0;
-
-// dark gradient
-
-// background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-//  background-blend-mode: multiply,multiply;
 
 * {
   box-sizing: border-box;
@@ -91,7 +79,7 @@ a {
 }
 .btn-secondary {
   @extend .btn;
-  background: $line-gradient;
+  background: $primary-gradient;
   font-weight: 700;
 }
 

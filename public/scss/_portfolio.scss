@@ -1,11 +1,9 @@
-$light-text: #dcdcdd;
+$light-text: #e6e9f0;
 $primary-bg: #46494c;
-$primary-accent: #1985a1;
+$primary-accent: #2fb6ed;
 
-$secondary-light-text: #e6e9f0;
-
-// $snow-gradient: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-$snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+$primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
+$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 .portfolio {
   display: grid;
@@ -20,17 +18,9 @@ $snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: #c9ccd3;
-      background-image: linear-gradient(
-        -180deg,
-        rgba(255, 255, 255, 0.5) 0%,
-        rgba(0, 0, 0, 0.5) 100%
-      );
-      background-blend-mode: lighten;
-      color: $light-text;
+      background: $light-text;
       height: auto;
       border-radius: 6px;
-      // width: 90%;
       overflow: hidden;
 
       .card-img-top {

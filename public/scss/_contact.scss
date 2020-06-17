@@ -1,13 +1,9 @@
-$light-text: #dcdcdd;
+$light-text: #e6e9f0;
 $primary-bg: #46494c;
-$primary-accent: #1985a1;
+$primary-accent: #2fb6ed;
 
-$secondary-light-text: #e6e9f0;
-
-// $snow-gradient: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
-// $snow-gradient: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-
-$secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
+$primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
+$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 .contact {
   display: flex;
@@ -29,13 +25,7 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
       border-bottom-left-radius: 6px;
     }
     .contact-inner-grid-item:last-child {
-      background: #c9ccd3;
-      background-image: linear-gradient(
-        -180deg,
-        rgba(255, 255, 255, 0.5) 0%,
-        rgba(0, 0, 0, 0.5) 100%
-      );
-      background-blend-mode: lighten;
+      background: $light-text;
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px;
     }
@@ -116,7 +106,6 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
         }
 
         .form-alert {
-          color: #fff;
           font-size: 1.1rem;
           padding: 0;
           grid-column: 1;
@@ -137,12 +126,13 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
         .btn {
           vertical-align: middle;
           color: #fff;
-          font-size: 1.25rem;
+          font-size: 1.3rem;
           grid-column: 2/2;
           justify-self: end;
+          padding: 0.7rem 1.5rem;
           i {
             font-size: 1.6rem;
-            vertical-align: middle;
+            vertical-align: text-top;
           }
         }
         .btn:hover,

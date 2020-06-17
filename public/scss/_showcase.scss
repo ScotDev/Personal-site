@@ -1,9 +1,9 @@
-$light-text: #dcdcdd;
+$light-text: #e6e9f0;
 $primary-bg: #46494c;
-$primary-accent: #1985a1;
+$primary-accent: #2fb6ed;
 
-$primary-gradient: #fd4d8c
-  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+$primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
+$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 .showcase {
   display: grid;

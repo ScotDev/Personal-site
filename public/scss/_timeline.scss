@@ -1,12 +1,9 @@
-$light-text: #dcdcdd;
+$light-text: #e6e9f0;
 $primary-bg: #46494c;
-$primary-accent: #1985a1;
+$primary-accent: #2fb6ed;
 
-$secondary-light-text: #e6e9f0;
-
-$primary-gradient: #fd4d8c
-  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
-$secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
+$primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
+$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 .timeline {
   width: 100%;
@@ -45,7 +42,7 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
     }
     li:last-child {
       border-bottom: 3px solid;
-      border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+      border-image: $primary-gradient;
       border-image-slice: 1;
       border-width: 3px;
     }
@@ -54,7 +51,7 @@ $secondary-gradient: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
       font-size: 1em;
       line-height: 1.75em;
       border-top: 3px solid;
-      border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+      border-image: $primary-gradient;
       border-image-slice: 1;
       border-width: 3px;
       margin: 0;
