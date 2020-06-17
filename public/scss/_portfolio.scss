@@ -40,6 +40,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         align-items: center;
         height: 315px;
         padding: 1rem 1rem 0 1rem;
+
         .card-title {
           color: $text;
           font-size: 1.4rem;
@@ -53,7 +54,6 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
           text-align: center;
           font-size: 1.1rem;
           margin: 0rem 0 1.2rem 0;
-          overflow: hidden;
           line-height: 1.5;
         }
 
@@ -83,7 +83,6 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
             align-items: center;
             flex-wrap: wrap;
             margin: 0.5rem 0 0 0;
-            // padding: 0 2rem;
 
             p:first-child {
               margin-left: 0.5rem;
@@ -125,7 +124,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   .portfolio {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 10rem;
+    padding: 0 8rem;
     margin: 0 0 4rem 0;
 
     .portfolio-item {
@@ -133,6 +132,99 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         width: 90%;
         .card-bottom-content {
           height: 300px;
+        }
+      }
+    }
+  }
+}
+
+// Grid layout for large laptop screens
+@media only screen and (max-width: 1800px) {
+  .portfolio {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .portfolio-item {
+      .card {
+        .card-bottom-content {
+          height: 360px;
+        }
+      }
+    }
+  }
+}
+
+// Grid layout for large laptop screens
+@media only screen and (max-width: 1500px) {
+  .portfolio {
+    grid-template-columns: 1fr 1fr;
+
+    .portfolio-item {
+      .card {
+        .card-bottom-content {
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+// Grid layout for medium laptop screens
+@media only screen and (max-width: 1275px) {
+  .portfolio {
+    .portfolio-item {
+      .card {
+        .card-bottom-content {
+          height: 350px;
+          padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+
+          .card-title {
+            font-size: 1.2rem;
+            margin: 0rem 0 1rem 0;
+          }
+
+          .card-text {
+            font-size: 1rem;
+            line-height: 1.4;
+          }
+
+          .card-btn-tag-group {
+            .btn {
+              padding: 0.5rem 1.4rem;
+              margin-bottom: 0.7rem;
+              i {
+                font-size: 1.4rem;
+              }
+            }
+
+            .card-tags {
+              p {
+                margin: 0 0.5rem 0.5rem 0;
+                font-size: 1rem;
+                outline: none;
+
+                i {
+                  vertical-align: text-bottom;
+                  font-size: 1.3rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large screen devices, iPads (not pro)
+@media only screen and (max-width: 1000px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+
+    .portfolio-item {
+      .card {
+        .card-bottom-content {
+          height: auto;
+          padding: 0.6rem 0.5rem;
         }
       }
     }
