@@ -42,25 +42,25 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
       border-top: 0;
     }
     li:last-child {
-      border-style: solid;
+      border: 3px solid;
       border-image: $primary-gradient;
       -moz-border-image: $primary-gradient;
       -webkit-border-image: $primary-gradient;
       -webkit-border-image-slice: 1;
       border-image-slice: 1;
-      border-width: 3px;
+      // border-width: 3px;
     }
 
     li {
       font-size: 1em;
       line-height: 1.75em;
-      border-style: solid;
+      border: 3px solid;
       border-image: $primary-gradient;
       -moz-border-image: $primary-gradient;
       -webkit-border-image: $primary-gradient;
       -webkit-border-image-slice: 1;
       border-image-slice: 1;
-      border-width: 3px;
+      // border-width: 3px;
       margin: 0;
       padding: 40px;
       counter-increment: section;
