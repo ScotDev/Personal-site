@@ -62,7 +62,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
       -webkit-border-image: $primary-gradient;
       -webkit-border-image-slice: 1;
       border-image-slice: 1;
-      border-image-width: 0 0 3px 0;
+      border-image-width: 0 0 3px 3px;
     }
 
     li {
