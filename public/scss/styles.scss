@@ -8,8 +8,15 @@
 
 $light-text: #dcdcdd;
 $primary-bg: #46494c;
-$primary-accent: #1985a1;
-$line-gradient: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+// $primary-accent: #1985a1;
+$primary-accent: #2fb6ed;
+
+// #2c77e3
+
+$primary-gradient: #fd4d8c
+  linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
+$line-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
 $secondary-light-text: #e6e9f0;
 
@@ -51,9 +58,7 @@ body {
   font-size: 2rem;
   font-weight: 500;
   color: $light-text;
-  border-bottom: 4px solid;
-  border-image: $line-gradient;
-  border-image-slice: 1;
+  border-bottom: 4px solid $primary-accent;
   border-width: 4px;
   margin: 0 auto 3rem 5rem;
   padding: 0 0 0.5rem 0;
@@ -81,12 +86,12 @@ a {
 
 .btn-primary {
   @extend .btn;
-  background: #fd4d8c linear-gradient(90deg, #fd4d8c 0, #fd766a 76%, #fc7f61);
+  background: $secondary-gradient;
   font-weight: 700;
 }
 .btn-secondary {
   @extend .btn;
-  background: #2c77e3 linear-gradient(90deg, #2c77e3 0, #2fb6ed);
+  background: $line-gradient;
   font-weight: 700;
 }
 

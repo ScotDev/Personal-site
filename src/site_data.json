@@ -7,17 +7,29 @@
     "url": "https://www.brcodify.com/",
     "link_alias": "brcodify.com",
     "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
-    "tech": ["html5", "css3", "js", "react", "sass", "npm"]
+    "tech": [
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "js"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["npm", "npm"]
+    ]
   },
   {
     "id": "2",
     "img": "buc",
     "title": "Best Used Cars",
-    "description": "A responsive example site for a fake local used car dealership",
+    "description": "A responsive dummy site for a used car dealership, showcasing their current inventory and offers, as well as contact information",
     "url": "https://best-used-cars.now.sh/",
     "link_alias": "best-used-cars.now.sh",
     "github_link": "https://github.com/ScotDev/best-used-cars",
-    "tech": ["html5", "css3", "react", "sass"]
+    "tech": [
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["React", "react"],
+      ["Sass", "sass"]
+    ]
   },
   {
     "id": "3",
@@ -27,7 +39,14 @@
     "url": "https://www.theweather.xyz/",
     "link_alias": "theweather.xyz",
     "github_link": "https://github.com/ScotDev/simple-react-weather",
-    "tech": ["html5", "css3", "js", "react", "sass", "npm"]
+    "tech": [
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "js"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["npm", "npm"]
+    ]
   },
   {
     "id": "4",
@@ -38,14 +57,14 @@
     "link_alias": "floramate.cc",
     "github_link": "https://github.com/ScotDev/app.floramate",
     "tech": [
-      "html5",
-      "css3",
-      "js",
-      "react",
-      "sass",
-      "npm",
-      "node-js",
-      "express"
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "js"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["Node.js", "node-js"],
+      ["Express.js", "Express-js"],
+      ["npm", "npm"]
     ]
   },
   {
@@ -56,7 +75,11 @@
     "url": "https://www.candle-kids.com/",
     "link_alias": "candle-kids.com",
     "github_link": "https://github.com/ScotDev/candle-kids",
-    "tech": ["html5", "css3", "js"]
+    "tech": [
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "js"]
+    ]
   },
   {
     "id": "6",
@@ -66,6 +89,10 @@
     "url": "https://www.mttraducciones.com/",
     "link_alias": "www.mttraducciones.com",
     "github_link": "https://github.com/ScotDev/bootstrap-sandbox",
-    "tech": ["html5", "css3", "bootstrap"]
+    "tech": [
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["Bootstrap", "bootstrap"]
+    ]
   }
 ]

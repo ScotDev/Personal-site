@@ -18,7 +18,7 @@ export default function Portfolio() {
                             <a className="btn btn-secondary" href={item.github_link} target="_blank" rel="noopener noreferrer">GitHub <i class="lab la-github"></i></a>
                         </div>
                         <div className="card-tags">{item.tech.map(tech => {
-                            return (<p>{tech} <i className={`lab la-${tech}`}></i></p>)
+                            return (<p><i className={`lab la-${tech[1]}`}></i> {tech[0]}</p>)
                         })}</div>
                     </div>
                 </div>
