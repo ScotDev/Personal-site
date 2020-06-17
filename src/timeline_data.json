@@ -25,9 +25,9 @@
   },
   {
     "id": "5",
-    "title": "Started learning to code",
-    "text": "Signed up to freeCodeCamp and following Udemy courses",
-    "date": "Sep 2018"
+    "title": "First GitHub commit",
+    "text": "Also signed up to freeCodeCamp and started following Udemy courses",
+    "date": "Oct 2019"
   },
   {
     "id": "6",
@@ -45,7 +45,7 @@
   {
     "id": "8",
     "title": "Built BRCODIFY",
-    "text": "Originally using vanilla JS, rebuilt using React",
+    "text": "Originally using vanilla JS, later rebuilt in React",
     "date": "March 2020",
     "url": "https://www.brcodify.com/"
   },
@@ -73,7 +73,8 @@
   {
     "id": "12",
     "title": "Created this website",
-    "text": "Practicing React, JS, CSS and Sass",
-    "date": "14th June 2020"
+    "text": "Using React, JS, CSS and Sass",
+    "date": "14th June 2020",
+    "github_url": "https://github.com/ScotDev/Personal-site/"
   }
 ]
