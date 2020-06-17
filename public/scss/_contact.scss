@@ -7,11 +7,11 @@ $secondary-bg: #1b1b1b;
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
 .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  min-width: 60%;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // text-align: center;
+  width: 60%;
   margin: 3rem 0 3rem 0;
 
   .contact-inner-grid {
@@ -142,6 +142,33 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
           box-shadow: 1px 1px 10px $text;
           -moz-box-shadow: 1px 1px 10px $text;
           -webkit-box-shadow: 1px 1px 10px $text;
+        }
+      }
+    }
+  }
+}
+
+// Layout for laptop screens
+@media only screen and (max-width: 1500px) {
+  .contact {
+    width: 75%;
+    .contact-inner-grid {
+      .contact-inner-grid-item {
+        .static-contact-info {
+          ul {
+            li {
+              h3 {
+                font-size: 1.6rem;
+                color: $text;
+              }
+              a {
+                font-size: 1.3rem;
+                i {
+                  font-size: 1.7rem;
+                }
+              }
+            }
+          }
         }
       }
     }

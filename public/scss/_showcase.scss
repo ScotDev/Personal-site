@@ -49,3 +49,32 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
     }
   }
 }
+
+// Grid layout for laptop screens
+@media only screen and (max-width: 1500px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 4rem 0;
+    .showcase-item:first-child {
+      display: none;
+    }
+
+    .showcase-item {
+      .showcase-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          font-size: 2.8rem;
+        }
+        h2 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

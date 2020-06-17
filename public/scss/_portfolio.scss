@@ -8,9 +8,9 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
 .portfolio {
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 4rem;
+  padding: 0 2rem;
   margin: 0 0 4rem 0;
 
   .portfolio-item {
@@ -55,6 +55,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
           font-size: 1.1rem;
           margin: 0rem 0 1.2rem 0;
           line-height: 1.5;
+          height: 70px;
         }
 
         .card-btn-tag-group {
@@ -124,7 +125,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   .portfolio {
     gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 8rem;
+    padding: 0 6rem;
     margin: 0 0 4rem 0;
 
     .portfolio-item {
@@ -142,6 +143,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 @media only screen and (max-width: 1800px) {
   .portfolio {
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 0;
 
     .portfolio-item {
       .card {
@@ -157,6 +159,8 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 @media only screen and (max-width: 1500px) {
   .portfolio {
     grid-template-columns: 1fr 1fr;
+    padding: 0 1rem;
+    gap: 2rem;
 
     .portfolio-item {
       .card {
@@ -174,16 +178,16 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
     .portfolio-item {
       .card {
         .card-bottom-content {
-          height: 350px;
+          height: 320px;
           padding: 0.5rem 0.5rem 0.3rem 0.5rem;
 
           .card-title {
-            font-size: 1.2rem;
-            margin: 0rem 0 1rem 0;
+            font-size: 1.3rem;
+            margin: 0.5rem 0 1rem 0;
           }
 
           .card-text {
-            font-size: 1rem;
+            font-size: 1.1rem;
             line-height: 1.4;
           }
 
@@ -219,11 +223,27 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 @media only screen and (max-width: 1000px) {
   .portfolio {
     grid-template-columns: 1fr;
+    padding: 0 2rem;
 
     .portfolio-item {
       .card {
         .card-bottom-content {
           height: auto;
+          padding: 0.6rem 0.5rem;
+        }
+      }
+    }
+  }
+}
+// Mobile screens
+@media only screen and (max-width: 750px) {
+  .portfolio {
+    padding: 0;
+
+    .portfolio-item {
+      .card {
+        .card-bottom-content {
+          //Remove
           padding: 0.6rem 0.5rem;
         }
       }
