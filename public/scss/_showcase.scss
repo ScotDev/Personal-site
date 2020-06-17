@@ -50,7 +50,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   }
 }
 
-// Grid layout for laptop screens
+// Layout for laptop screens
 @media only screen and (max-width: 1500px) {
   .showcase {
     display: flex;
