@@ -1,14 +1,10 @@
-$light-text: #e6e9f0;
-$primary-bg: #46494c;
-$primary-accent: #2fb6ed;
+$text: #e6e9f0;
+$primary-bg: #111111;
+$primary-accent: #3c6fde;
+$secondary-accent: #f98951;
+$secondary-bg: #1b1b1b;
 
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
-$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
-$bg-gradient: linear-gradient(
-  -180deg,
-  rgba(255, 255, 255, 0.5) 0%,
-  rgba(0, 0, 0, 0.5) 100%
-);
 
 .navbar {
   display: flex;
@@ -17,7 +13,7 @@ $bg-gradient: linear-gradient(
   top: 0;
   z-index: 2;
   background: rgba($primary-bg, $alpha: 0.8);
-  color: $light-text;
+  color: $text;
   padding: 0 1rem;
   height: 80px;
 
@@ -42,12 +38,12 @@ $bg-gradient: linear-gradient(
     li {
       font-size: 1rem;
       margin: 0 1em;
-      color: $light-text;
+      color: $text;
       font-size: 1.3rem;
 
       a {
         text-decoration: none;
-        color: $light-text;
+        color: $text;
         padding: 0 0 0.2rem 0;
 
         i {
@@ -57,7 +53,7 @@ $bg-gradient: linear-gradient(
 
       a:hover,
       a:focus {
-        border-bottom: 2px $light-text solid;
+        border-bottom: 2px $text solid;
         cursor: pointer;
       }
     }
@@ -76,9 +72,9 @@ $bg-gradient: linear-gradient(
 
     ul {
       list-style-type: none;
-      color: $light-text;
+      color: $text;
       li {
-        color: $light-text;
+        color: $text;
       }
     }
   }

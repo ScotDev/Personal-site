@@ -6,12 +6,14 @@
 @import '_contact';
 @import '_timeline';
 
-$light-text: #e6e9f0;
-$primary-bg: #46494c;
-$primary-accent: #2fb6ed;
+$text: #e6e9f0;
+$primary-bg: #111111;
+$primary-accent: #3c6fde;
+$secondary-accent: #f98951;
+$secondary-bg: #1b1b1b;
 
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
-$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
+// $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 * {
   box-sizing: border-box;
@@ -45,8 +47,8 @@ body {
 .section-heading {
   font-size: 2rem;
   font-weight: 500;
-  color: $light-text;
-  border-bottom: 4px solid $primary-accent;
+  color: $text;
+  border-bottom: 4px solid $secondary-accent;
   border-width: 4px;
   margin: 0 auto 3rem 5rem;
   padding: 0 0 0.5rem 0;
@@ -68,27 +70,29 @@ body {
 }
 
 a {
-  color: #fff;
+  color: $text;
   text-decoration: none;
 }
 
 .btn-primary {
   @extend .btn;
-  background: $secondary-gradient;
+  background: $primary-accent;
   font-weight: 700;
 }
 .btn-secondary {
   @extend .btn;
-  background: $primary-gradient;
+  background: $secondary-bg;
+  color: $primary-accent;
+  border: 1px solid $primary-accent;
   font-weight: 700;
 }
 
 .btn:hover,
 .btn:focus {
   transform: translateY(-2px);
-  box-shadow: 1px 1px 10px $light-text;
-  -moz-box-shadow: 1px 1px 10px $light-text;
-  -webkit-box-shadow: 1px 1px 10px $light-text;
+  box-shadow: 1px 1px 10px $text;
+  -moz-box-shadow: 1px 1px 10px $text;
+  -webkit-box-shadow: 1px 1px 10px $text;
   cursor: pointer;
 }
 
@@ -106,7 +110,7 @@ body::-webkit-scrollbar {
   width: 1rem;
 }
 body::-webkit-scrollbar-track {
-  background: $light-text;
+  background: $text;
 }
 body::-webkit-scrollbar-thumb {
   background: $primary-bg;

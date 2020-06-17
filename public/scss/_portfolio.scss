@@ -1,9 +1,10 @@
-$light-text: #e6e9f0;
-$primary-bg: #46494c;
-$primary-accent: #2fb6ed;
+$text: #e6e9f0;
+$primary-bg: #111111;
+$primary-accent: #3c6fde;
+$secondary-accent: #f98951;
+$secondary-bg: #1b1b1b;
 
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
-$secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 .portfolio {
   display: grid;
@@ -18,7 +19,7 @@ $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: $light-text;
+      background: $secondary-bg;
       height: auto;
       border-radius: 6px;
       overflow: hidden;
@@ -40,7 +41,7 @@ $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
         height: 315px;
         padding: 1rem 1rem 0 1rem;
         .card-title {
-          color: $primary-bg;
+          color: $text;
           font-size: 1.4rem;
           font-weight: 500;
           text-align: center;
@@ -48,7 +49,7 @@ $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
         }
 
         .card-text {
-          color: $primary-bg;
+          color: $text;
           text-align: center;
           font-size: 1.1rem;
           margin: 0rem 0 1.2rem 0;
@@ -71,9 +72,9 @@ $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
           .btn:hover,
           .btn:focus {
-            box-shadow: 1px 1px 10px $primary-bg;
-            -moz-box-shadow: 1px 1px 10px $primary-bg;
-            -webkit-box-shadow: 1px 1px 10px $primary-bg;
+            box-shadow: 1px 1px 10px $text;
+            -moz-box-shadow: 1px 1px 10px $text;
+            -webkit-box-shadow: 1px 1px 10px $text;
           }
 
           .card-tags {
@@ -97,7 +98,7 @@ $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
               color: $primary-bg;
               font-weight: 500;
               border: none;
-              color: $light-text;
+              color: $text;
               background-color: $primary-bg;
               font-size: 1.1rem;
               outline: none;
