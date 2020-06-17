@@ -106,6 +106,7 @@ a {
 .btn-group {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 body::-webkit-scrollbar {
