@@ -222,13 +222,12 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 // Large screen devices, iPads (not pro)
 @media only screen and (max-width: 1000px) {
   .portfolio {
-    grid-template-columns: 1fr;
-    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1rem;
 
     .portfolio-item {
       .card {
         .card-bottom-content {
-          height: auto;
           padding: 0.6rem 0.5rem;
         }
       }
@@ -236,15 +235,19 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   }
 }
 // Mobile screens
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
   .portfolio {
-    padding: 0;
-
+    grid-template-columns: 1fr;
     .portfolio-item {
       .card {
+        border: 1px solid $primary-accent;
         .card-bottom-content {
           //Remove
           padding: 0.6rem 0.5rem;
+          height: auto;
+          .card-text {
+            height: auto;
+          }
         }
       }
     }

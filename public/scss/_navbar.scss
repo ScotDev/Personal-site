@@ -59,14 +59,6 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   }
 }
 
-// @media only screen and (max-width: 400px) {
-//   .navbar {
-//     .dropdown {
-//       transform: translateX(45%);
-//     }
-//   }
-// }
-
 @media only screen and (max-width: 1500px) {
   .navbar {
     .nav-title {
@@ -89,6 +81,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 @media only screen and (max-width: 900px) {
   .navbar {
     .nav-links {
+      display: none;
       li {
         font-size: 1.2rem;
         margin: 0.75rem 0;

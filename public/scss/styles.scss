@@ -13,7 +13,6 @@ $secondary-accent: #f98951;
 $secondary-bg: #1b1b1b;
 
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
-// $secondary-gradient: #266cce linear-gradient(90deg, #2c77e3 0, #2fb6ed);
 
 * {
   box-sizing: border-box;
@@ -32,6 +31,7 @@ body {
 .container {
   width: 100%;
   background-color: $primary-bg;
+  overflow-x: hidden;
 }
 
 .content {
@@ -42,6 +42,7 @@ body {
   height: 100%;
   padding: 0 5.5rem 7rem 5.5rem;
   background-color: $primary-bg;
+  overflow-x: hidden;
 }
 
 .section-heading {

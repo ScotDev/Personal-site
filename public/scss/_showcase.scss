@@ -68,11 +68,13 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
         h1 {
           font-size: 2.8rem;
         }
         h2 {
           font-size: 1.4rem;
+          padding: 0 0 1rem 0;
         }
       }
     }

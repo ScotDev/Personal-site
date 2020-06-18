@@ -109,7 +109,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
       }
       .timeline-link {
         font-size: 1rem;
-        color: #fff;
+        color: $text;
         vertical-align: middle;
         i {
           font-size: 1.3rem;
@@ -123,6 +123,28 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
     margin: 1rem 0 0 0;
     i {
       font-size: 1.4rem;
+    }
+  }
+}
+
+// Mobile screens
+@media only screen and (max-width: 900px) {
+  .timeline {
+    width: 85%;
+
+    margin: 0 1rem 4rem 0;
+    .timeline-list {
+      li {
+        .btn {
+          padding: 0.7rem 1.4rem;
+        }
+      }
+    }
+
+    #download {
+      i {
+        font-size: 1.3rem;
+      }
     }
   }
 }
