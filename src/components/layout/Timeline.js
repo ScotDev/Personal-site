@@ -15,7 +15,7 @@ export default function Timeline() {
                 <p className="timeline-text">{item.text}</p>
                 <p className="timeline-date">{item.date}</p>
                 {item.url && <a href={item.url} className="timeline-link btn btn-primary" target="_blank" rel="noopener noreferrer">View live <i class="las la-external-link-alt"></i></a>}
-                {item.github_url && <a href={item.github_url} className="timeline-link btn btn-primary" target="_blank" rel="noopener noreferrer">View GitHub repo <i className="lab la-github"></i></a>}
+                {item.github_url && <a href={item.github_url} className="timeline-link btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub <i className="lab la-github"></i></a>}
             </li>
         )
     })

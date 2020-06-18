@@ -253,3 +253,29 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
     }
   }
 }
+
+// Small mobile screens
+@media only screen and (max-width: 400px) {
+  .portfolio {
+    .portfolio-item {
+      .card {
+        .card-bottom-content {
+          .card-text {
+            font-size: 1rem;
+            line-height: 1.4;
+          }
+          .card-btn-tag-group {
+            .btn-group {
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+            }
+            .card-tags {
+              margin: 0.4rem 0 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
