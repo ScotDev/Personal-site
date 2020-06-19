@@ -1,13 +1,7 @@
 {
-  "name": "Callum Giles",
-  "short_name": "ScotDev",
+  "name": "ScotDev",
+  "short_name": "Callum Giles' portfolio site",
   "icons": [
-    {
-      "src": "/maskable_icon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
@@ -17,9 +11,15 @@
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable any"
     }
   ],
-  "theme_color": "#11111",
-  "background_color": "#11111",
+  "theme_color": "#111111",
+  "background_color": "#1b1b1b",
   "display": "standalone"
 }
