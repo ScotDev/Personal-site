@@ -63,7 +63,7 @@ export default class Contact extends Component {
 
                             <p className={`form-alert ${alertClass}`}>{alert}</p>
 
-                            <button className="btn btn-primary" type="submit">Send <i class="las la-paper-plane"></i></button>
+                            <button className="btn btn-secondary" type="submit">Send <i class="las la-paper-plane"></i></button>
                         </form>
                     </div>
                 </div>

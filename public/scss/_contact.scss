@@ -123,14 +123,14 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
         .btn {
           vertical-align: middle;
-          color: $text;
-          font-size: 1.3rem;
+          font-size: 1.2rem;
           grid-column: 2/2;
           justify-self: end;
-          padding: 0.7rem 1.5rem;
+          padding: 0.6rem 1.5rem;
+          line-height: 1.5;
           i {
-            font-size: 1.6rem;
-            vertical-align: text-top;
+            font-size: 1.4rem;
+            vertical-align: text-bottom;
           }
         }
         .btn:hover,

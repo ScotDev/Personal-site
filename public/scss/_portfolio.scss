@@ -71,13 +71,6 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
             }
           }
 
-          .btn:hover,
-          .btn:focus {
-            box-shadow: 1px 1px 10px $text;
-            -moz-box-shadow: 1px 1px 10px $text;
-            -webkit-box-shadow: 1px 1px 10px $text;
-          }
-
           .card-tags {
             display: flex;
             justify-content: center;

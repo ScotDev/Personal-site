@@ -55,6 +55,11 @@ body {
   padding: 0 0 0.5rem 0;
 }
 
+a {
+  color: $text;
+  text-decoration: none;
+}
+
 .btn {
   border: none;
   outline: none;
@@ -70,17 +75,7 @@ body {
   transition: all 0.1s ease;
 }
 
-a {
-  color: $text;
-  text-decoration: none;
-}
-
 .btn-primary {
-  @extend .btn;
-  background: $primary-accent;
-  font-weight: 700;
-}
-.btn-secondary {
   @extend .btn;
   background: $secondary-bg;
   color: $primary-accent;
@@ -88,12 +83,19 @@ a {
   font-weight: 700;
 }
 
+.btn-secondary {
+  @extend .btn;
+  background: $primary-accent;
+  color: $text;
+  font-weight: 700;
+}
+
 .btn:hover,
 .btn:focus {
   transform: translateY(-2px);
-  box-shadow: 1px 1px 10px $text;
-  -moz-box-shadow: 1px 1px 10px $text;
-  -webkit-box-shadow: 1px 1px 10px $text;
+  box-shadow: 1px 1px 10px $primary-accent;
+  -moz-box-shadow: 1px 1px 10px $primary-accent;
+  -webkit-box-shadow: 1px 1px 10px $primary-accent;
   cursor: pointer;
 }
 

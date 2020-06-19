@@ -7,42 +7,17 @@ $secondary-bg: #1b1b1b;
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
 .showcase {
-  // display: grid;
-  // gap: 1rem;
-  // grid-template-columns: 1fr 3fr;
-  // grid-auto-rows: minmax(250px, 500px);
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-
   padding: 2rem 1rem;
-  margin: 0 0 10rem 0;
+  margin: 0 0 6rem 0;
 
   .showcase-item {
     color: $text;
 
-    // Decided against profile pic and blurb for now
-    // .profile {
-    //   display: flex;
-    //   flex-direction: column;
-    //   align-items: center;
-    //   justify-content: center;
-
-    //   padding: 3rem;
-    //   img {
-    //     border-radius: 50%;
-    //     height: 300px;
-    //     width: 300px;
-    //   }
-
-    //   p {
-    //     padding: 3rem;
-    //     line-height: 1.7;
-    //     font-size: 1.1rem;
-    //   }
-    // }
     .showcase-main {
       display: flex;
       flex-direction: column;
@@ -52,6 +27,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
     }
     h1 {
       font-size: 3rem;
+      margin: 0;
     }
     h2 {
       font-size: 1.5rem;
@@ -60,10 +36,9 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   }
 }
 
-// Layout for laptop screens
+// Layout for laptop screens and smaller
 @media only screen and (max-width: 1500px) {
   .showcase {
-    margin: 0 0 4rem 0;
     .showcase-item {
       .showcase-main {
         h1 {
@@ -71,7 +46,6 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         }
         h2 {
           font-size: 1.4rem;
-          padding: 0 0 1rem 0;
         }
       }
     }
