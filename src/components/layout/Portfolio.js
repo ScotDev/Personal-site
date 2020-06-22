@@ -18,7 +18,7 @@ export default function Portfolio() {
                             <a className="btn btn-secondary" href={item.url} target="_blank" rel="noopener noreferrer">View live <i class="las la-external-link-alt"></i></a>
                         </div>
                         <div className="card-tags">{item.tech.map(tech => {
-                            return (<p><i className={`lab la-${tech[1]}`}></i> {tech[0]}</p>)
+                            return (<p><i className={`${tech[1]}`}></i> {tech[0]}</p>)
                         })}</div>
                     </div>
                 </div>

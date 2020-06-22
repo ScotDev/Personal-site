@@ -3,17 +3,17 @@
     "id": "1",
     "img": "brc",
     "title": "BRCODIFY",
-    "description": "A React SPA tool for generating barcodes, incorporating BEM naming conventions",
+    "description": "A React SPA tool for generating barcodes, incorporating BEM class-naming principles",
     "url": "https://www.brcodify.com/",
     "link_alias": "brcodify.com",
     "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
     "tech": [
-      ["HTML5", "html5"],
-      ["CSS3", "css3"],
-      ["JS", "js"],
-      ["React", "react"],
-      ["Sass", "sass"],
-      ["npm", "npm"]
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["JS", "lab la-js-square"],
+      ["React", "lab la-react"],
+      ["Sass", "lab la-sass"],
+      ["npm", "lab la-npm"]
     ]
   },
   {
@@ -25,10 +25,10 @@
     "link_alias": "best-used-cars.now.sh",
     "github_link": "https://github.com/ScotDev/best-used-cars",
     "tech": [
-      ["HTML5", "html5"],
-      ["CSS3", "css3"],
-      ["React", "react"],
-      ["Sass", "sass"]
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["React", "lab la-react"],
+      ["Sass", "lab la-sass"]
     ]
   },
   {
@@ -40,12 +40,12 @@
     "link_alias": "theweather.xyz",
     "github_link": "https://github.com/ScotDev/simple-react-weather",
     "tech": [
-      ["HTML5", "html5"],
-      ["CSS3", "css3"],
-      ["JS", "js"],
-      ["React", "react"],
-      ["Sass", "sass"],
-      ["npm", "npm"]
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["JS", "lab la-js-square"],
+      ["React", "lab la-react"],
+      ["Sass", "lab la-sass"],
+      ["npm", "lab la-npm"]
     ]
   },
   {
@@ -57,28 +57,28 @@
     "link_alias": "floramate.cc",
     "github_link": "https://github.com/ScotDev/app.floramate",
     "tech": [
-      ["HTML5", "html5"],
-      ["CSS3", "css3"],
-      ["JS", "js"],
-      ["React", "react"],
-      ["Sass", "sass"],
-      ["Node.js", "node-js"],
-      ["Express.js", "Express-js"],
-      ["npm", "npm"]
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["JS", "lab la-js-square"],
+      ["React", "lab la-react"],
+      ["Sass", "lab la-sass"],
+      ["Node.js", "lab la-node-js"],
+      ["Express.js", "lab la-js"],
+      ["MongoDB", "las la-server"]
     ]
   },
   {
     "id": "5",
     "img": "candle_kids",
     "title": "CandleCon Countdown",
-    "description": "A simple website counting down to a fake convention in Amsterdam",
+    "description": "A simple website with a timer counting down to a fake convention in Amsterdam",
     "url": "https://www.candle-kids.com/",
     "link_alias": "candle-kids.com",
     "github_link": "https://github.com/ScotDev/candle-kids",
     "tech": [
-      ["HTML5", "html5"],
-      ["CSS3", "css3"],
-      ["JS", "js"]
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["JS", "lab la-js-square"]
     ]
   },
   {
@@ -90,9 +90,9 @@
     "link_alias": "www.mttraducciones.com",
     "github_link": "https://github.com/ScotDev/bootstrap-sandbox",
     "tech": [
-      ["HTML5", "html5"],
-      ["CSS3", "css3"],
-      ["Bootstrap", "bootstrap"]
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["Bootstrap", "lab la-bootstrap"]
     ]
   }
 ]
