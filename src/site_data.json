@@ -92,7 +92,8 @@
     "tech": [
       ["HTML5", "lab la-html5"],
       ["CSS3", "lab la-css3"],
-      ["Bootstrap", "lab la-bootstrap"]
+      ["Bootstrap", "lab la-bootstrap"],
+      ["Sass", "lab la-sass"]
     ]
   }
 ]

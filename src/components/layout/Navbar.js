@@ -19,7 +19,7 @@ export default function Navbar() {
                 <div></div>
                 <div></div>
 
-                <ul className="mobile-nav-links">
+                <ul>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#timeline">About me</a></li>
                     <li><a href="https://github.com/ScotDev" target="_blank" rel="noopener noreferrer">GitHub <i className="lab la-github"></i></a></li>
