@@ -6,6 +6,15 @@ $secondary-bg: #1b1b1b;
 
 $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
+@keyframes imgFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .portfolio {
   display: grid;
   gap: 1.5rem;
@@ -31,6 +40,8 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         width: 100%;
         opacity: 0.95;
         align-self: flex-start;
+        animation: imgFadeIn 2s ease 0.5s 1 normal backwards;
+        -webkit-animation: imgFadeIn 2s ease 0.5s 1 normal backwards;
       }
 
       .card-bottom-content {
