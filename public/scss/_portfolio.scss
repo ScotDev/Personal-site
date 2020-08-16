@@ -23,13 +23,6 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
   margin: 0 0 4rem 0;
 
   .portfolio-item {
-    &:first-child {
-      img {
-        object-fit: contain;
-        background-color: $primary-bg;
-      }
-    }
-
     .card {
       display: flex;
       flex-direction: column;
@@ -49,6 +42,8 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         align-self: flex-start;
         animation: imgFadeIn 2s ease 0.5s 1 normal backwards;
         -webkit-animation: imgFadeIn 2s ease 0.5s 1 normal backwards;
+
+        background-color: $primary-bg;
       }
       .card-bottom-content {
         display: flex;

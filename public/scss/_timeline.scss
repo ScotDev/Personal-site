@@ -55,15 +55,17 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
     li:first-child {
       border-top: 0;
     }
-    li:last-child {
-      border-bottom: 3px solid;
-      border-image: $primary-gradient;
-      -moz-border-image: $primary-gradient;
-      -webkit-border-image: $primary-gradient;
-      -webkit-border-image-slice: 1;
-      border-image-slice: 1;
-      border-image-width: 0 0 3px 3px;
-    }
+
+    // Only necessary if last item is even
+    // li:last-child {
+    //   border-bottom: 3px solid;
+    //   border-image: $primary-gradient;
+    //   -moz-border-image: $primary-gradient;
+    //   -webkit-border-image: $primary-gradient;
+    //   -webkit-border-image-slice: 1;
+    //   border-image-slice: 1;
+    //   border-image-width: 0 0 3px 3px;
+    // }
 
     li {
       font-size: 1em;
