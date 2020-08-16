@@ -1,6 +1,26 @@
 [
   {
     "id": "1",
+    "img": "qmt",
+    "title": "The Quarantine Mixtape",
+    "description": "A simple website with a timer counting down to a fake convention in Amsterdam",
+    "url": "https://thequarantinemixtape.com/",
+    "link_alias": "thequarantinemixtape.com",
+    "github_link": "https://github.com/ScotDev/qmt",
+    "tech": [
+      ["HTML5", "lab la-html5"],
+      ["CSS3", "lab la-css3"],
+      ["JS", "lab la-js-square"],
+      ["React", "lab la-react"],
+      ["Sass", "lab la-sass"],
+      ["npm", "lab la-npm"],
+      ["MongoDB", "las la-server"],
+      ["Next.js", ""],
+      ["Strapi", ""]
+    ]
+  },
+  {
+    "id": "2",
     "img": "brc",
     "title": "BRCODIFY",
     "description": "A React SPA tool for generating barcodes, incorporating BEM class-naming principles",
@@ -17,7 +37,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": "3",
     "img": "buc",
     "title": "Best Used Cars",
     "description": "A responsive dummy site for a used car dealership, showcasing their current inventory and offers, as well as contact information",
@@ -32,7 +52,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "4",
     "img": "xyz",
     "title": "theweather.xyz",
     "description": "A React weather SPA showing the current weather via openweathermap.orgs's API",
@@ -49,7 +69,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": "5",
     "img": "app_floramate",
     "title": "floramate",
     "description": "A WIP full-stack React app to help you select wildlife-friendly plants suited to your area",
@@ -65,20 +85,6 @@
       ["Node.js", "lab la-node-js"],
       ["Express.js", "lab la-js"],
       ["MongoDB", "las la-server"]
-    ]
-  },
-  {
-    "id": "5",
-    "img": "candle_kids",
-    "title": "CandleCon Countdown",
-    "description": "A simple website with a timer counting down to a fake convention in Amsterdam",
-    "url": "https://www.candle-kids.com/",
-    "link_alias": "candle-kids.com",
-    "github_link": "https://github.com/ScotDev/candle-kids",
-    "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["JS", "lab la-js-square"]
     ]
   },
   {
