@@ -76,5 +76,12 @@
     "text": "Using React, JS, CSS and Sass",
     "date": "15th June 2020",
     "github_url": "https://github.com/ScotDev/Personal-site/"
+  },
+  {
+    "id": "13",
+    "title": "Built The Quarantine Mixtape",
+    "text": "First project with Next.js and Strapi CMS",
+    "date": "16th August 2020",
+    "url": "https://thequarantinemixtape.com/"
   }
 ]

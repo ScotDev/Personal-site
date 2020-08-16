@@ -3,7 +3,7 @@
     "id": "1",
     "img": "qmt",
     "title": "The Quarantine Mixtape",
-    "description": "A simple website with a timer counting down to a fake convention in Amsterdam",
+    "description": "A blogging site using Next.js and Strapi CMS, hosted with Heroku and Vercel",
     "url": "https://thequarantinemixtape.com/",
     "link_alias": "thequarantinemixtape.com",
     "github_link": "https://github.com/ScotDev/qmt",
