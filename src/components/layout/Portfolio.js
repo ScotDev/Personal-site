@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 import data from '../../site_data.json';
 
 export default function Portfolio() {
+
 
     const items = data.map(item => {
         return (<div className="portfolio-item" key={item.id}>
@@ -18,8 +19,9 @@ export default function Portfolio() {
                             <a className="btn btn-secondary" href={item.url} target="_blank" rel="noopener noreferrer">View live <i className="las la-external-link-alt"></i></a>
                         </div>
                         <div className="card-tags">{item.tech.map(tech => {
-                            return (<p><i className={`${tech[1]}`}></i> {tech[0]}</p>)
+                            return (<p><i className={`icon-${tech[1]}`} alt=""></i>{tech[0]}</p>)
                         })}</div>
+
                     </div>
                 </div>
             </div>

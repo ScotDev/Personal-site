@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.min.css';
+import './fonts/fonts.css'
 
 import Navbar from './components/layout/Navbar';
 import Showcase from './components/layout/Showcase';

@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('./icomoon.eot?w1bwiv');
+  src: url('./icomoon.eot?w1bwiv#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?w1bwiv') format('truetype'),
+    url('./icomoon.woff?w1bwiv') format('woff'),
+    url('./icomoon.svg?w1bwiv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apple:before {
+  content: '\e901';
+}
+.icon-bootstrap:before {
+  content: '\e902';
+}
+.icon-css3:before {
+  content: '\e903';
+}
+.icon-digitalocean:before {
+  content: '\e904';
+}
+.icon-electron:before {
+  content: '\e905';
+}
+.icon-express:before {
+  content: '\e906';
+}
+.icon-figma:before {
+  content: '\e907';
+}
+.icon-heroku:before {
+  content: '\e908';
+}
+.icon-html5:before {
+  content: '\e909';
+}
+.icon-javascript:before {
+  content: '\e90a';
+}
+.icon-linux:before {
+  content: '\e90b';
+}
+.icon-mongodb:before {
+  content: '\e90c';
+}
+.icon-netlify:before {
+  content: '\e90d';
+}
+.icon-node-dot-js:before {
+  content: '\e90e';
+}
+.icon-npm:before {
+  content: '\e90f';
+}
+.icon-python:before {
+  content: '\e910';
+}
+.icon-raspberrypi:before {
+  content: '\e911';
+}
+.icon-react:before {
+  content: '\e912';
+}
+.icon-sass:before {
+  content: '\e913';
+}
+.icon-strapi:before {
+  content: '\e914';
+}
+.icon-vercel:before {
+  content: '\e915';
+}
+.icon-windows:before {
+  content: '\e916';
+}
+.icon-next-dot-js:before {
+  content: '\e900';
+}

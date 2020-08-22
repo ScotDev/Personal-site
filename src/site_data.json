@@ -8,15 +8,17 @@
     "link_alias": "thequarantinemixtape.com",
     "github_link": "https://github.com/ScotDev/qmt",
     "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["JS", "lab la-js-square"],
-      ["React", "lab la-react"],
-      ["Sass", "lab la-sass"],
-      ["npm", "lab la-npm"],
-      ["MongoDB", "las la-server"],
-      ["Next.js", ""],
-      ["Strapi", ""]
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "javascript"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["npm", "npm"],
+      ["MongoDB", "mongodb"],
+      ["Next.js", "next-dot-js"],
+      ["Strapi", "strapi"],
+      ["Vercel", "vercel"],
+      ["Heroku", "heroku"]
     ]
   },
   {
@@ -28,12 +30,13 @@
     "link_alias": "brcodify.com",
     "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
     "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["JS", "lab la-js-square"],
-      ["React", "lab la-react"],
-      ["Sass", "lab la-sass"],
-      ["npm", "lab la-npm"]
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "javascript"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["npm", "npm"],
+      ["Netlify", "netlify"]
     ]
   },
   {
@@ -45,10 +48,11 @@
     "link_alias": "best-used-cars.now.sh",
     "github_link": "https://github.com/ScotDev/best-used-cars",
     "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["React", "lab la-react"],
-      ["Sass", "lab la-sass"]
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["Vercel", "vercel"]
     ]
   },
   {
@@ -60,12 +64,13 @@
     "link_alias": "theweather.xyz",
     "github_link": "https://github.com/ScotDev/simple-react-weather",
     "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["JS", "lab la-js-square"],
-      ["React", "lab la-react"],
-      ["Sass", "lab la-sass"],
-      ["npm", "lab la-npm"]
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "javascript"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["npm", "npm"],
+      ["Netlify", "netlify"]
     ]
   },
   {
@@ -77,14 +82,16 @@
     "link_alias": "floramate.cc",
     "github_link": "https://github.com/ScotDev/app.floramate",
     "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["JS", "lab la-js-square"],
-      ["React", "lab la-react"],
-      ["Sass", "lab la-sass"],
-      ["Node.js", "lab la-node-js"],
-      ["Express.js", "lab la-js"],
-      ["MongoDB", "las la-server"]
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["JS", "javascript"],
+      ["React", "react"],
+      ["Sass", "sass"],
+      ["Node.js", "node-dot-js"],
+      ["Express.js", "express"],
+      ["MongoDB", "mongodb"],
+      ["Netlify", "netlify"],
+      ["Digital Ocean", "digitalocean"]
     ]
   },
   {
@@ -96,10 +103,11 @@
     "link_alias": "www.mttraducciones.com",
     "github_link": "https://github.com/ScotDev/bootstrap-sandbox",
     "tech": [
-      ["HTML5", "lab la-html5"],
-      ["CSS3", "lab la-css3"],
-      ["Bootstrap", "lab la-bootstrap"],
-      ["Sass", "lab la-sass"]
+      ["HTML5", "html5"],
+      ["CSS3", "css3"],
+      ["Bootstrap", "bootstrap"],
+      ["Sass", "sass"],
+      ["Netlify", "netlify"]
     ]
   }
 ]

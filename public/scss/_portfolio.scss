@@ -50,7 +50,7 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 315px;
+        height: 335px;
         padding: 1rem 1rem 0 1rem;
 
         .card-title {
@@ -114,8 +114,9 @@ $primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
               text-align: center;
 
               i {
-                vertical-align: text-bottom;
-                font-size: 1.4rem;
+                vertical-align: middle;
+                font-size: 1.1rem;
+                margin-right: 0.35rem;
               }
             }
           }
