@@ -44,10 +44,6 @@ export default class Contact extends Component {
                                 <li>
                                     <h3>Get in touch!</h3>
                                 </li>
-                                <li>
-                                    <a href="tel:07850478668" target="_blank" rel="noopener noreferrer"><i class="las la-phone"></i> 07850478668</a>
-                                </li>
-
                                 <li><a href="mailto:callum.195@outlook.com" target="_blank" rel="noopener noreferrer"><i className="las la-envelope"></i> callum.195@outlook.com</a>
                                 </li>
                             </ul>

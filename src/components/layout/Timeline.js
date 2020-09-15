@@ -15,7 +15,7 @@ export default function Timeline() {
                 <p className="timeline-text">{item.text}</p>
                 <p className="timeline-date">{item.date}</p>
                 {item.url && <a href={item.url} className="timeline-link btn btn-secondary" target="_blank" rel="noopener noreferrer">View live <i className="las la-external-link-alt"></i></a>}
-                {item.github_url && <a href={item.github_url} className="timeline-link btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub <i className="lab la-github"></i></a>}
+                {item.github_url && <a href={item.github_url} className="timeline-link btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub <i className="icon-github"></i></a>}
             </li>
         )
     })
@@ -25,7 +25,7 @@ export default function Timeline() {
             <ul className="timeline-list">
                 {items}
             </ul>
-            <a className="btn btn-secondary" id="download" href="../../assets/documents/CV_CALLUM_GILES.pdf" download alt="Download CV" target="_blank" rel="noopener noreferrer">Download full CV <i className="las la-download"></i></a>
+            <a className="btn btn-secondary" id="download" href="../assets/CV_CALLUM_GILES.pdf" download alt="Download CV" target="_blank" rel="noopener noreferrer">Download full CV <i className="las la-download"></i></a>
         </div>
 
     )
