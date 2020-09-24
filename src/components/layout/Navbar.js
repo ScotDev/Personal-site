@@ -23,7 +23,7 @@ export default function Navbar() {
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#timeline">About me</a></li>
                     <li><a href="https://github.com/ScotDev" target="_blank" rel="noopener noreferrer">GitHub <i className="lab la-github"></i></a></li>
-                    <li><a href="mailto:callum.195@outlook.com" rel="noopener noreferrer"><i className="las la-envelope"></i></a></li>
+                    <li><a href="mailto:callum.195@outlook.com" rel="noopener noreferrer">Email me</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>

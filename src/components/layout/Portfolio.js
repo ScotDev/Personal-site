@@ -15,8 +15,8 @@ export default function Portfolio() {
 
                     <div className="card-btn-tag-group">
                         <div className="btn-group">
-                            <a className="btn btn-primary" href={item.github_link} target="_blank" rel="noopener noreferrer">GitHub <i className="lab la-github"></i></a>
-                            <a className="btn btn-secondary" href={item.url} target="_blank" rel="noopener noreferrer">View live <i className="las la-external-link-alt"></i></a>
+                            <a className="btn btn-primary" href={item.github_link} target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a className="btn btn-secondary" href={item.url} target="_blank" rel="noopener noreferrer">View live</a>
                         </div>
                         <div className="card-tags">{item.tech.map(tech => {
                             return (<p><i className={`icon-${tech[1]}`} alt=""></i>{tech[0]}</p>)
