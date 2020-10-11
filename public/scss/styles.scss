@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
+// config must be imported first
+@import '_config';
 @import '_navbar';
 @import '_showcase';
 @import '_portfolio';
 @import '_contact';
 @import '_timeline';
-
-$text: #e6e9f0;
-$primary-bg: #111111;
-$primary-accent: #3c6fde;
-$secondary-accent: #f98951;
-$secondary-bg: #1b1b1b;
-
-$primary-gradient: linear-gradient(135deg, #743ad5 0%, #d53a9d 100%);
 
 * {
   box-sizing: border-box;
