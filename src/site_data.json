@@ -23,12 +23,12 @@
   },
   {
     "id": "2",
-    "img": "brc",
-    "title": "BRCODIFY",
-    "description": "A React SPA tool for generating barcodes, made with Chakra UI components",
-    "url": "https://www.brcodify.com/",
-    "link_alias": "brcodify.com",
-    "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
+    "img": "xyz",
+    "title": "theweather.xyz",
+    "description": "A React weather SPA showing the current weather via openweathermap.orgs's API. Internationalised without a library.",
+    "url": "https://www.theweather.xyz/",
+    "link_alias": "theweather.xyz",
+    "github_link": "https://github.com/ScotDev/simple-react-weather",
     "tech": [
       ["HTML5", "html5"],
       ["CSS3", "css3"],
@@ -39,6 +39,7 @@
       ["Netlify", "netlify"]
     ]
   },
+
   {
     "id": "3",
     "img": "buc",
@@ -57,12 +58,12 @@
   },
   {
     "id": "4",
-    "img": "xyz",
-    "title": "theweather.xyz",
-    "description": "A React weather SPA showing the current weather via openweathermap.orgs's API. Internationalised without a library.",
-    "url": "https://www.theweather.xyz/",
-    "link_alias": "theweather.xyz",
-    "github_link": "https://github.com/ScotDev/simple-react-weather",
+    "img": "brc",
+    "title": "BRCODIFY",
+    "description": "A React SPA tool for generating barcodes, made with Chakra UI components",
+    "url": "https://www.brcodify.com/",
+    "link_alias": "brcodify.com",
+    "github_link": "https://github.com/ScotDev/BRCODIFY-REACT",
     "tech": [
       ["HTML5", "html5"],
       ["CSS3", "css3"],
