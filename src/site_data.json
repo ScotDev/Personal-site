@@ -59,7 +59,7 @@
     "id": "4",
     "img": "xyz",
     "title": "theweather.xyz",
-    "description": "A React weather SPA showing the current weather via openweathermap.orgs's API",
+    "description": "A React weather SPA showing the current weather via openweathermap.orgs's API. Internationalised without a library.",
     "url": "https://www.theweather.xyz/",
     "link_alias": "theweather.xyz",
     "github_link": "https://github.com/ScotDev/simple-react-weather",
@@ -87,11 +87,7 @@
       ["JS", "javascript"],
       ["React", "react"],
       ["Sass", "sass"],
-      ["Node.js", "node-dot-js"],
-      ["Express.js", "express"],
-      ["MongoDB", "mongodb"],
-      ["Netlify", "netlify"],
-      ["Digital Ocean", "digitalocean"]
+      ["Netlify", "netlify"]
     ]
   },
   {

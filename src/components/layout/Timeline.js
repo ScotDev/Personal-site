@@ -25,7 +25,7 @@ export default function Timeline() {
             <ul className="timeline-list">
                 {items}
             </ul>
-            <a className="btn btn-secondary" id="download" href="../assets/CV_CALLUM_GILES.pdf" download alt="Download CV" target="_blank" rel="noopener noreferrer">Download full CV</a>
+            {/* <a className="btn btn-secondary" id="download" href="../assets/CV_CALLUM_GILES.pdf" download alt="Download CV" target="_blank" rel="noopener noreferrer">Download full CV</a> */}
         </div>
 
     )

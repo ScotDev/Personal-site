@@ -52,14 +52,14 @@
   {
     "id": "9",
     "title": "Started learning React",
-    "text": "Launched floramate as a full stack learning project with Node.js and Express.js",
+    "text": "Started floramate as a learning project",
     "date": "May 2020",
     "url": "https://www.floramate.cc/"
   },
   {
     "id": "10",
     "title": "Launched theweather.xyz",
-    "text": "Learned about class-based state and API consumption in React",
+    "text": "Built with React hooks and functional components",
     "date": "May 2020",
     "url": "https://www.theweather.xyz/"
   },
