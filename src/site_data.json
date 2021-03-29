@@ -36,7 +36,8 @@
       ["React", "react"],
       ["Sass", "sass"],
       ["npm", "npm"],
-      ["Netlify", "netlify"]
+      ["Netlify", "netlify"],
+      ["Redux", "redux"]
     ]
   },
 
@@ -79,8 +80,8 @@
     "img": "app_floramate",
     "title": "floramate",
     "description": "A WIP React app to help you select wildlife-friendly plants suited to your area",
-    "url": "https://www.floramate.cc/",
-    "link_alias": "floramate.cc",
+    "url": "https://www.floramate.co.uk/",
+    "link_alias": "floramate.co.uk",
     "github_link": "https://github.com/ScotDev/app.floramate",
     "tech": [
       ["HTML5", "html5"],
