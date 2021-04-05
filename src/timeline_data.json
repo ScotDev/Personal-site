@@ -81,5 +81,12 @@
     "text": "First project with Next.js and Strapi CMS",
     "date": "16th August 2020",
     "url": "https://thequarantinemixtape.com/"
+  },
+  {
+    "id": "14",
+    "title": "Began floramate development",
+    "text": "Refactoring project to Next.js with headless CMS",
+    "date": "January 2021",
+    "url": "https://floramate.co.uk/"
   }
 ]
