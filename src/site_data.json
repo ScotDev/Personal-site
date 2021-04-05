@@ -14,7 +14,6 @@
       ["React", "react"],
       ["Sass", "sass"],
       ["npm", "npm"],
-      ["MongoDB", "mongodb"],
       ["Next.js", "next-dot-js"],
       ["Strapi", "strapi"],
       ["Vercel", "vercel"],
@@ -89,7 +88,10 @@
       ["JS", "javascript"],
       ["React", "react"],
       ["Sass", "sass"],
-      ["Netlify", "netlify"]
+      ["Next.js", "next-dot-js"],
+      ["Strapi", "strapi"],
+      ["Vercel", "vercel"],
+      ["Heroku", "heroku"]
     ]
   },
   {
